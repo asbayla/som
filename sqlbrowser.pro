@@ -30,7 +30,8 @@ HEADERS         = browser.h connectionwidget.h qsqlconnectiondialog.h \
     geojsonreader.h \
     psqlquerybuilder.h \
     qsqlconnectiondialog.h \
-    qtobjectvisitor.h
+    qtobjectvisitor.h \
+    app.h
 SOURCES         = main.cpp browser.cpp connectionwidget.cpp qsqlconnectiondialog.cpp \
     geojsongenerator.cpp \
     geojsonreader.cpp \
@@ -60,7 +61,8 @@ SOURCES         = main.cpp browser.cpp connectionwidget.cpp qsqlconnectiondialog
     main.cpp \
     psqlquerybuilder.cpp \
     qsqlconnectiondialog.cpp \
-    qtobjectvisitor.cpp
+    qtobjectvisitor.cpp \
+    app.cpp
 
 FORMS           = browserwidget.ui qsqlconnectiondialog.ui
 build_all:!build_pass {
